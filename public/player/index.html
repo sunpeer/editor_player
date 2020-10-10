@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="player.css">
+</head>
+<body>
+    <div id="console">
+        <div class="inline-wrap">
+            <input id="inputfile" type="file" accept="video/*"/>
+            <div>打开</div>
+        </div>
+        <div class="inline-wrap">
+            <button onclick="screenshot()">截屏</button>
+        </div>
+    </div>
+    <div id="player-container">
+        <video id="player" controls></video>
+    </div>    
+    <script type="text/javascript" src="player.js"></script>
+</body>
+</html>

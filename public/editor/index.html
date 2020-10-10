@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="editor.css">
+</head>
+<body>
+    <div id="edit-container" >
+        <div id="console" class="inline-wrap">
+            <button onclick="setSelectionStyle('bold')">加粗</button>
+            <button onclick="setSelectionStyle('underline')">下划线</button>
+            <button onclick="setSelectionStyle('italic')">斜体</button>
+            <input type="file" accept="image/*" id="pic-selector">
+            <button>插入图片</button>
+        </div>
+        <div id="edit-pad" contenteditable="true">
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="editor.js"></script>
+</body>
+</html>

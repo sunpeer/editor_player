@@ -1,0 +1,45 @@
+#edit-container{
+    position: relative;
+}
+#edit-pad{
+    border:1px solid #3399ff;
+    min-height: 10em;
+    border-radius: 0.5em;
+    outline: none;
+    padding: 0.5em;
+}
+.inline-wrap{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    align-content: middle;
+    font-size: 1rem;
+    overflow: hidden;
+}
+.inline-wrap button{
+    background-color: #3385ff;
+    color: #fff;
+    width:6ch;
+    height:3ch;
+    line-height: 3ch;
+    border-radius: 0.2em;
+    border:0;
+    font-size: 1rem;
+}
+#pic-selector{
+    opacity: 0;
+    position: absolute;
+}
+
+.italic{
+    font-style: oblique;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.text-indent{
+    text-indent: 3em;
+}
